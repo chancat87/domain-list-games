@@ -10,15 +10,19 @@ updates:
     schedule:
       interval: "daily"
       timezone: "Asia/Shanghai"
-      time: "07:00"
+      time: "06:00"
     pull-request-branch-name:
       separator: "-"
-
+    labels:
+      - "dependencies"
+      
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "daily"
       timezone: "Asia/Shanghai"
-      time: "07:00"
+      time: "06:00"
     pull-request-branch-name:
       separator: "-"
+    labels:
+      - "dependencies"
