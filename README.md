@@ -2,7 +2,7 @@
 [![Build games.dat](https://github.com/KoinuDayo/domain-list-games/actions/workflows/build.yml/badge.svg)](https://github.com/KoinuDayo/domain-list-games/actions/workflows/build.yml)  
 在[release分支](https://github.com/KoinuDayo/domain-list-games/tree/release)查看最新的发布。
 # 简介
-一个外置的 `game.dat` 文件，包含了一些常见游戏的域名。
+一个外置的 `games.dat` 文件，包含了一些常见游戏的域名。
 # 如何使用
 * Windows: 将文件放到v2/xray的执行目录。
 * Linux: 将文件放到 `/usr/local/share/$type` 内。
