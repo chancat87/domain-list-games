@@ -1,16 +1,16 @@
 ### **Fork from https://github.com/Loyalsoldier/domain-list-custom**
 [![Build games.dat](https://github.com/KoinuDayo/domain-list-games/actions/workflows/build.yml/badge.svg)](https://github.com/KoinuDayo/domain-list-games/actions/workflows/build.yml)  
-在[release分支](https://github.com/KoinuDayo/domain-list-games/tree/release)查看最新的发布
+在[release分支](https://github.com/KoinuDayo/domain-list-games/tree/release)查看最新的发布。
 # 简介
-一个外置的 `game.dat` 文件，包含了一些常见游戏的域名
+一个外置的 `game.dat` 文件，包含了一些常见游戏的域名。
 # 如何使用
-* Windows: 将文件放到v2/xray的执行目录
-* Linux: 将文件放到 `/usr/local/share/$type` 内
-* 路由设置 `ext:game.dat:tag`
+* Windows: 将文件放到v2/xray的执行目录。
+* Linux: 将文件放到 `/usr/local/share/$type` 内。
+* 路由设置 `ext:game.dat:tag`。
 # 贡献
-Fork这个仓库，在data文件夹加入你的游戏的域名文件，在 `main.go` 的 `exportLists` 里添加你的文件名然后提交PR  
+Fork这个仓库，在data文件夹加入你的游戏的域名文件，在 `main.go` 的 `exportLists` 里添加你的文件名，然后提交PR。  
 格式： `data/游戏名/按字典序排序的域名`  
-例：在 `data/rinbow6sidge` 文件内
+例：在 `data/rinbow6sidge` 文件内：
 ```
 api-configuration-live01.live01.pc-live.r6.ubi.com 
 api-discovery.live01.pc-live.r6.ubi.com 
