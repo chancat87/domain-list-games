@@ -8,7 +8,7 @@
 * Linux: 将文件放到 `/usr/local/share/$type` 内。
 * 路由设置 `ext:game.dat:tag`。
 # 贡献
-Fork这个仓库，在data文件夹加入你的游戏的域名文件，在 `main.go` 的 `exportLists` 里添加你的文件名，然后提交PR。  
+Fork这个仓库，在data文件夹加入你的游戏的域名文件，编辑添加按字典序排序的域名之后提交PR。  
 格式： `data/游戏名/按字典序排序的域名`  
 例：在 `data/rinbow6sidge` 文件内：
 ```
