@@ -1,5 +1,3 @@
-include:battlenet
-
 auth3.prod.demonware.net
 iw8-bnet-auth3.prod.demonware.net
 iw8-bnet-loginqueue.prod.demonware.net
