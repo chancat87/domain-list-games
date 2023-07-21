@@ -42,7 +42,7 @@ jobs:
 
         cd publish || exit 1
 
-        date >> /tmp/date.ini && date=$(sed "s# #_#g" /tmp/date.ini)
+        date=$(date -u +'%Y-%m-%d-%H%M%S')
 
         echo "DATE=$date" >> $GITHUB_ENV
         cp games.dat ../
