@@ -13,8 +13,6 @@ updates:
       time: "06:00"
     pull-request-branch-name:
       separator: "-"
-    labels:
-      - "dependencies"
       
   - package-ecosystem: "gomod"
     directory: "/"
@@ -24,5 +22,3 @@ updates:
       time: "06:00"
     pull-request-branch-name:
       separator: "-"
-    labels:
-      - "dependencies"
