@@ -15,7 +15,7 @@ var (
 	dataPath     = flag.String("datapath", filepath.Join("./", "data"), "Path to your custom 'data' directory")
 	datName      = flag.String("datname", "games.dat", "Name of the generated dat file")
 	outputPath   = flag.String("outputpath", "./publish", "Output path to the generated files")
-	exportLists  = flag.String("exportlists", "rinbow6sidge", "Lists to be exported in plaintext format, separated by ',' comma")
+	exportLists  = flag.String("exportlists", "", "Lists to be exported in plaintext format, separated by ',' comma")
 	excludeAttrs = flag.String("excludeattrs", "", "Exclude rules with certain attributes in certain lists, seperated by ',' comma, support multiple attributes in one list. Example: geolocation-!cn@cn@ads,geolocation-cn@!cn")
 )
 
